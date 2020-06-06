@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%
+}
+
+html {
+    height: 100%;
+}
+
+.page-title {
+    margin: 0 90px;
+    color: #190E62;
+}
+.page-title h1 {
+    margin: 0;
+    color: #190E62;
+}
+
+.page-title .hline {
+    background-color: #1ad1cb;
+    height: 2px;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.row-v-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.col-h-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-v-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    padding: 20px 35px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-name img{
+    width: 45px;
+    height: 45px;
+}
+.logo-name h1 {
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-links ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-links ul div {
+    padding: 5px 0;
+}
+.nav-links ul div:nth-child(even) {
+    margin: 0 30px;
+}
+.nav-links ul div li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-links .active-page {
+    border-bottom: 1px solid #1ad1cb;
+}
+
+.h-menu {
+    display: none;
+    position: relative;
+}
+
+.h-links {
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    .nav-links {
+        display: none;
+    }
+
+    .h-menu {
+        display: block;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .hamburger:hover {
+        cursor: pointer;
+    }
+
+    .hamburger.active div {
+        width: 40px;
+        height: 2px;
+        margin: 4px 0;
+        background-color: grey;
+        display: block;
+    }
+    .h-links.active {
+        display: block;
+        position: absolute;
+        background-color: #f5f5f5;
+        width: 150px;
+        transform: translateX(-150px);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .h-links.active .close{
+        position: absolute;
+        top: 2px;
+        left: 100%;
+        transform: translateX(-26px);
+        border-radius: 10px;
+        border: 0;
+    }
+    .h-links.active a {
+        display: block;
+        margin: 20px 0;
+        color: #190E62;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,75 @@
+body {
+    background-image: url("/assets/Group\ 18.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav { 
+    background-color: white;
+}
+
+.content-container {
+    margin-top: 40px;
+}
+
+.content-container .top {
+    margin: 40px 90px 0 90px;
+    justify-content: space-between;
+}
+
+.content-container .text-container {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 300;
+    color: #190E62;
+}
+.content-container .top .img-container {
+    width: 50%;
+}
+.content-container .top img {
+    width: 80%;
+    -webkit-box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+    box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+}
+
+.content-container .bottom {
+    margin: 40px 90px;
+    justify-content: space-between;
+}
+
+.content-container .bottom .text-container {
+    width: 55%;
+}
+.content-container .bottom .img-container {
+    width: 45%;
+}
+.content-container .bottom .img-container img {
+    width: 75%;
+    -webkit-box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+    box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+}
+.btn-container {
+    margin: 10px auto;
+    width: 140px;
+}
+.btn-container button {
+    width: 140px;
+    border: none;
+    padding: 15px;
+    border-radius: 175px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #190E62;
+}
+.btn-container button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    transform: scale(1.01);
+    transition-duration: 1s;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>D.Pierson Vibration Analysis</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/services.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="row">
+      <div class="logo-name row">
+        <img src="/assets/logo DP.png" alt="">
+        <h1>D.Pierson Vibration Analysis</h1>
+      </div>
+      <div class="h-menu">
+        <div class="hamburger active" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="h-links">
+            <button onclick="closeMenu()" class="close">X</button>
+            <a href="/">Home</a>
+            <a href="/vibration-analysis.html">Vibration Analysis</a>
+            <a href="/services.html">Services</a>
+            <a href="/industry-experience.html">Industry Experience</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="nav-links">
+        <ul class="row">
+          <div id="home-link">
+            <li>
+              <a class="link-tag" href="/">Home</a>
+            </li>
+          </div>
+          <div id="vibration-analysis-link">
+            <li>
+              <a class="link-tag" href="/vibration-analysis.html">Vibration Analysis</a>
+            </li>
+          </div>
+          <div id="services-link">
+            <li>
+              <a class="link-tag" href="/services.html">Services</a>
+            </li>
+          </div>
+          <div id="industry-experience-link">
+            <li>
+              <a class="link-tag" href="/industry-experience.html">Industry Experience</a>
+            </li>
+          </div>
+          <div id="contact-link">
+            <li>
+              <a class="link-tag" href="/contact.html">Contact</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <div class="content-container">
+        <div class="page-title">
+            <h1 class="page-title">Services</h1>
+            <div class="hline"></div>
+        </div>
+        <div class="services-container row">
+            <div class="services-list">
+                <div class="service row">
+                    <img src="/assets/logo DP.png" alt="">
+                    <p>
+                        A variety of flexible services can be provided that suits you best
+                        at a cost that fits your budget.
+                    </p>
+                </div>
+                <div class="service row">
+                    <img src="/assets/logo DP.png" alt="">
+                    <p>
+                        Regular machine monitoring which will catch unexpected machine changes
+                        that will affect your production run. Repairs can be done on your schedule
+                        with minimal impact on your bottom line.
+                    </p>
+                </div>
+                <div class="service row">
+                    <img src="/assets/logo DP.png" alt="">
+                    <p>
+                        Documented easy to read and understandable reports are communicated in a timely 
+                        manner after vibration collection.
+                    </p>
+                </div>
+                <div class="service row">
+                    <img src="/assets/logo DP.png" alt="">
+                    <p>
+                        Field balancing of rotating equipment can be performed without extensive downtime
+                        taking the machine apart to send it off site for balancing.
+                    </p>
+                </div>
+                <div class="service row">
+                    <img src="/assets/logo DP.png" alt="">
+                    <p>
+                        After new equipment is installed or a major overhaul has been done to your equipment,
+                        "base-line" vibration readings can be conducted to determine if they meet machine standards
+                        or if the machine does not deliver as it should.
+                    </p>
+                </div>
+                <div class="service row">
+                    <img src="/assets/logo DP.png" alt="">
+                    <p>
+                        Second opinion of your existing vibration program to enhance what your team is doing
+                        and provide confirmation of your identified vibration issues.
+                    </p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/assets/20170906_154459.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="btn-container">
+      <button onclick="buttonRedirect('/contact.html')">Let's get in touch!</button>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script src="/scripts/setActiveLink.js"></script>
+  <script src="/scripts/handleLinkHover.js"></script>
+  <script src="/scripts/mobileNav.js"></script>
+  <script src="/scripts/redirect.js"></script>
+</html>

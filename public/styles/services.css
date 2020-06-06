@@ -1,0 +1,90 @@
+html {
+}
+body {
+    background-image: url("/assets/Group\ 18.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: white;
+}
+.content-container {
+    margin-top: 40px;
+}
+.services-container {
+    margin-top: 40px;
+    margin-left: 90px;
+    justify-content: space-between;
+}
+
+.services-container .services-list {
+    width: 60%;
+}
+
+.services-container .service {
+    align-items: center;
+    margin-top: 20px;
+}
+.services-container .service:nth-child(1) {
+    align-items: center;
+    margin-top: 0;
+}
+
+.services-container .services-list img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    
+}
+
+.services-container .services-list p {
+    font-size: 15px;
+    color: #190E62;
+}
+
+.services-container .img-container {
+    width: 40%;
+}
+
+.services-container .img-container img {
+    transform: rotate(90deg) translateX(80px);
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
+    -webkit-box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+    box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+
+}
+
+.btn-container {
+    margin: 10px auto;
+    width: 140px;
+}
+.btn-container button {
+    width: 140px;
+    border: none;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 175px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #190E62;
+}
+.btn-container button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    transform: scale(1.01);
+    transition-duration: 1s;
+}
+
+@media (max-width: 800px) {
+    .services-container {
+        flex-direction: column;
+    }
+}

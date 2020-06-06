@@ -1,0 +1,228 @@
+.banner-container {
+    justify-content: space-between;
+    height: 45%;
+}
+
+.banner-left {
+    width: 75%;
+    color: white;
+    background-image: url('/assets/Group\ 17.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.banner-left h1 {
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.banner-left p {
+    margin: 20px 100px 20px 100px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.banner-left button {
+    margin-left: 100px;
+    width: 175px;
+    border: none;
+    padding: 15px;
+    border-radius: 175px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #190E62;
+}
+.banner-left button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    transform: scale(1.01);
+    transition-duration: 1s;
+}
+
+.banner-right {
+    background-image: url('/assets/logo\ DP.png');
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 25%;
+}
+
+.questions-container {
+    padding: 0 90px;
+    height: 47.5%;
+}
+.question-item {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.question-item:nth-child(2){
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.question-item h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+}
+.question-item p {
+    width: 65%;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 15px 0 0 0;
+}
+.question-item .hline {
+    width: 40%;
+    height: 2px;
+    background-color: #1ad1cb;
+    margin-top: 3px;
+}
+.vline {
+    width: 1px;
+    margin: auto 20px;
+    height: 75px;
+    background-color: lightgray;
+}
+.question-item button {
+    width: 120px;
+    border: none;
+    padding: 15px;
+    border-radius: 175px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #190E62;
+    margin-top: 15px;
+}
+.question-item:nth-child(3) button {
+    background-color: #1ad1cb
+}
+
+.question-item button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    transform: scale(1.01);
+    transition-duration: 1s;
+}
+
+@media (max-height: 620px) {
+    .banner-container {
+        height: 75%;
+    }
+    .questions-container {
+        height: auto;
+    }
+}
+
+/*
+@media (max-width: 800px) {
+    .questions-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .vline {
+        display: none;
+    }
+
+    .banner-left {
+        padding: 10px 90px;
+    }
+    .banner-left h1 {
+        font-size: 35px;
+    }
+    .banner-left p {
+        font-size: 15px;
+    }
+    .banner-container {
+        flex-direction: column;
+    }
+    .banner-left {
+        padding: 0;
+        width: 100%;
+        height: 50vh;
+    }
+    .banner-left h1 {
+        font-size: 30px;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+    .banner-left p {
+        text-align: center;
+        font-size: 15px;
+        width: 75%;
+        margin: 0 auto 40px auto;
+    }
+    .banner-left button {
+        margin: 0 auto 10px auto;
+    }
+
+    .questions-container {
+        padding: 20px 45px;
+    }
+}
+
+@media (max-height: 525px) {
+    .questions-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .vline {
+        display: none;
+    }
+
+    .banner-left {
+        padding: 10px 90px;
+    }
+    .banner-left h1 {
+        font-size: 35px;
+    }
+    .banner-left p {
+        font-size: 15px;
+    }
+    .banner-container {
+        flex-direction: column;
+    }
+    .banner-left {
+        padding: 0;
+        width: 100%;
+        height: 50vh;
+    }
+    .banner-left h1 {
+        font-size: 30px;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+    .banner-left p {
+        text-align: center;
+        font-size: 15px;
+        width: 75%;
+        margin: 0 auto 40px auto;
+    }
+    .banner-left button {
+        margin: 0 auto 10px auto;
+    }
+
+    .questions-container {
+        padding: 20px 45px;
+    }
+}
+
+@media (max-width: 400px) {
+    .banner-left h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 340px) {
+    .banner-left h1 {
+        margin: 0 15px 10px 15px;
+    }
+}
+*/

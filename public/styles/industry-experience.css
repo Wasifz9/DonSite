@@ -1,0 +1,85 @@
+nav {
+    background-color: white;
+}
+
+body {
+    background-image: url("/assets/Group\ 18.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content-container {
+    margin-top: 40px;
+}
+.box {
+    margin: 20px 90px 60px 90px;
+    padding: 5px;
+    border: 1px solid #190E62;
+    text-align: center;
+    font-size: 20px;
+    color: #190E62;
+}
+
+.industries-container {
+    margin: 20px 90px 0 90px;
+}
+
+.industries-container .industries {
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+.industries .industry {
+    flex: 1 0 50%;
+}
+.industries .industry p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 40px;
+    color: #190E62;
+}
+
+.industries .industry img {
+    width: 30px;
+    height: 30px;
+}
+
+.industries-photos {
+    width: 35%;
+    margin-top: 20px;
+}
+.industries-photos img {
+    width: 60%;
+    -webkit-box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+    box-shadow: 6px 3px 39px -5px rgba(0,0,0,0.75);
+}
+.industries-photos img:nth-child(2) {
+    margin-top: 20px;
+}
+.btn-container {
+    width: 140px;
+    margin: 20px 0 10px 29.5%;
+}
+.btn-container button {
+    width: 140px;
+    border: none;
+    padding: 15px;
+    border-radius: 175px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #190E62;
+}
+.btn-container button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 33px -13px rgba(0,0,0,0.75);
+    transform: scale(1.01);
+    transition-duration: 1s;
+}
+
+@media (max-width: )

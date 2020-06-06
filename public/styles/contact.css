@@ -1,0 +1,117 @@
+body {
+    background-image: url("/assets/Group\ 17.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: white;
+}
+
+.content-container {
+    margin-top: 40px;
+}
+
+.content-container .page-title {
+    color: white;
+    margin: 20px 90px 0 90px;
+}
+
+.content-container .page-title h1 {
+    margin: 0;
+}
+
+.contacts-container {
+    margin: 50px 100px 0 100px;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.contacts-container h2 {
+    padding: 0;
+    margin: 15px 15px;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+}
+
+.contacts-container a {
+    margin-left: 12px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+.contacts-container .contacts {
+    width: 50%;
+}
+.contacts-container .contacts div {
+    margin: 0 auto;
+}
+
+.contacts-container .img-container {
+    width: 50%;
+}
+
+.contacts-container .img-container img {
+    width: 500px;
+}
+
+@media (max-width: 1150px) {
+    .content-container .page-title {
+        color: white;
+        margin: 20px 50px 0 50px;
+    
+    }
+    .contacts-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts-container .contacts {
+        align-items: center;
+        margin-right: 0;
+        width: 100%;
+        color: white;
+    }
+    .contacts-container .contacts h2 {
+        margin: 0;
+    }
+
+    .contacts-container a {
+        margin-left: 0;
+    }
+    /*
+    .contacts-container .img-container img {
+        width: 300px;
+        height: 200px;
+    }
+    */
+    .contacts-container .img-container {
+        margin: 40px 0 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 510px) {
+
+    .contacts-container .contacts h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .contacts-container .img-container img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 370px) {
+    .contacts-container .img-container img {
+        height: 200px;
+        width: 200px;
+    }
+}
